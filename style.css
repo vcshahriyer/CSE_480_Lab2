@@ -166,8 +166,37 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+/*table*/
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 86%;
+    margin-top: 10%;
+}
+th,
+td {
+    padding: 10px 15px;
+}
+thead {
+    background: #395870;
+    color: #fff;
+    text-align: center;
+}
+th {
+    font-weight: bold;
+}
+tbody tr:nth-child(even) {
+    background: #f0f0f2;
+}
+td {
+    border-bottom: 1px solid #cecfd5;
+    border-right: 1px solid #cecfd5;
+    border-left: 1px solid #cecfd5;
 
-
+}
+/*td:first-child {*/
+    /*border-left: 1px solid #cecfd5;*/
+/*}*/
 
 
 
@@ -176,7 +205,7 @@ footer {
     width: 100%;
     display: block;
     margin: 0;
-    height: 70px;
+    height: 38px;
     background-color: #999;
 }
 footer .copyright {
@@ -187,9 +216,10 @@ footer .copyright p {
     padding-left: 10%;
     color: white;
     font-size: 0.7em;
-    line-height: 36px;
     text-transform: capitalize;
     letter-spacing: 1px;
+    line-height: 38px;
+    margin: 0;
 }
 footer .social {
     width: 50%;
@@ -197,7 +227,7 @@ footer .social {
 }
 footer .social a {
     float: left;
-    line-height: 70px;
+    line-height: 38px;
     text-decoration: none;
     color: white;
     text-align: center;
