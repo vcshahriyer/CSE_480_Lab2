@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+body{
+	margin: 0;
+    font-family: sans-serif;
+}
+.header{
+	width: 100%;
+	height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),url(img/workplace-23.jpg) no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+div.laptop{
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),url(img/laptop-25.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+div.single-board{
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),url(img/raspberry-pi-1719219_1920.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+div.con{
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),url(img/telephone-contact.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.header h1,
+.header p{
+    margin: 0;
+	color: #fff;
+	text-align: center;
+}
+h2{
+    color: #609068;
+}
+.header p{font-family: monospace;}
+.header h1{
+    font-family: 'Playball', cursive;
+    font-size: 3em;
+}
+.header h1{
+	padding-top: 8%;
+}
+.navbar{
+	background-color: #363636;
+	padding: 15px 0;
+}
+.navbar a:hover{
+    color: #DA4453;
+}
+.navbar a:active{
+    color: #DA4453;
+}
+.navbar a{
+	text-decoration: none;
+	padding-left:10px;
+    color: #fff;
+    font-size: 16px;
+}
+.row{
+	display: flex;
+    width: 100%;
+}
+.side{
+	flex: 30%;
+	background-color: #f3f3f2;
+}
+
+.main{
+	flex: 70%;
+	/*background-color: #F7F7F7;*/
+	padding: 0 20px 50px;
+}
+.fakeimg{
+	max-height: 350px;
+}
+
+.footer{
+    display: block;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.profile{
+    width: 100%;
+}
+.profile-img {
+    margin: 0 auto;
+    width: 153px;
+    height: 153px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50% 50% 50% 50%;
+    margin-bottom: -80px;
+}
+.profile-img img{
+    width: 100%;
+}
+.content{
+    /*background-color: #eeeeef;*/
+    background-color: #b6e0bd;
+    padding: 80px 0;
+    width: 100%;
+    font-size: 0.8em;
+}
+.left,
+.right{
+    width: 50%;
+    display: table-cell;
+    padding: 0 5px;
+}
+.side h2{text-align: center}
+.recent-post img{width: 100%;}
+.recent-post {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #dadada;
+}
+.post{
+    width: 70%;
+    background-color: #fff;
+    border: 1px solid #dadada;
+}
+.post img{width: 100%;}
+.post-data {
+    padding: 5px;
+    font-size: 18px;
+    font-family: serif;
+}
+/*contact page css*/
+.contact{margin-top: 72px}
+.contact img{max-height: 400px;width: 100%;}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+textarea{height:200px}
+input[type=submit] {
+    background-color: #609068;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #35903b;
+}
+
+.container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+
+/*Footer css*/
+footer {
+    width: 100%;
+    display: block;
+    margin: 0;
+    height: 70px;
+    background-color: #999;
+}
+footer .copyright {
+    width: 50%;
+    float: left;
+}
+footer .copyright p {
+    padding-left: 10%;
+    color: white;
+    font-size: 0.7em;
+    line-height: 36px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+footer .social {
+    width: 50%;
+    float: right;
+}
+footer .social a {
+    float: left;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+footer .social a:hover {
+    background-color: #222;
+}
+
+.linked {
+    background-color: #1e83ae;
+    font-size: 1.2em;
+    width: 20%;
+}
+
+.face {
+    background-color: #3d5b94;
+    font-size: 1.2em;
+    width: 20%;
+}
+
+.tweet {
+    background-color: #3dacdd;
+    font-size: 1.2em;
+    width: 20%;
+}
+
+.support {
+    background-color: #6dcd9a;
+    font-size: 0.7em;
+    width: 40%;
+}
