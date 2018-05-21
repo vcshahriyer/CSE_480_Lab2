@@ -136,36 +136,7 @@ h2{
 }
 /*contact page css*/
 .contact{margin-top: 72px}
-.contact img{max-height: 400px;width: 100%;}
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-textarea{height:200px}
-input[type=submit] {
-    background-color: #609068;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #35903b;
-}
-
-.container2 {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
+.contact img{max-height: 350px;width: 85%;}
 /*table*/
 table {
     border-collapse: separate;
@@ -194,9 +165,6 @@ td {
     border-left: 1px solid #cecfd5;
 
 }
-/*td:first-child {*/
-    /*border-left: 1px solid #cecfd5;*/
-/*}*/
 
 
 
@@ -259,4 +227,22 @@ footer .social a:hover {
     background-color: #6dcd9a;
     font-size: 0.7em;
     width: 40%;
+}
+         /*media query*/
+
+@media only screen and (max-width: 425px) {
+    h2 {font-size: 1em;}
+    .content {font-size: 0.2em;}
+    .post {width: 100%;}
+    .main {padding: 0 5px 50px 5px;}
+    footer .copyright {width: 100%;font-size: .5em;}
+    footer .social {width: 100%;}
+    .support {font-size: 0.6em;}
+    .profile-img {width: 125px;height: 125px;}
+    .navbar a {font-size: 15px;}
+    footer .copyright p {line-height: 38px;}
+    td {padding: 6px 6px;}
+    table {font-size: .52em;}
+    .contact img {width: 100%;}
+    .post-data {font-size: 17px;}
 }
